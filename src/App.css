@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+.title{
+  margin-left: 500px;
+  color: black;
+  font-weight: 600;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo-txt{
+  font-weight: 800;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.logo{
+  border-style: none;
+  width: 30px;
   color: white;
+  background: blue;
+  font-weight: 500;
+}
+.login-btn{
+  border-style: none;
+  margin-left: 50px;
+  background: white;
+}
+.sign-up-btn{
+  color: white;
+  font-weight: 500;
+  width: 100px;
+  height: 32px;
+  border-style: none;
+  background: blue;
+  border-radius: 5px;
+}
+.content{
+  margin-left: 130px;
+  padding-top: 200px;
+  color: black;
+}
+.txt-bg{
+  font-style: italic;
+  display: inline-block ;  
+  margin-left: 20px;
+  color: white;
+  
+}
+.back{
+  background: blue ; 
+  width: 340px;
+  
+}
+p{
+  padding-top: 30px;
+}
+.order-btn{
+  width: 180px;
+  height: 50px;
+  font-weight: 600;
+  color: white;
+  background: blue;
+  border-style: none;
+  border-radius: 5px;
+}
+.play-btn{
+  
+  width: 180px;
+  height: 50px;
+  background: white;
+  border-style: none;
+  
+}
+.pl-icon{
+  width: 50px;
+  height: 50px;
+  margin-top: 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.left-sec,.right-sec{
+  display: flex;
+}
+.app{
+  position: relative;
+}
+.img-sec{
+  width: 600px;
+  height:380px;
+  position: absolute;
+  left:650px;
+  top: 30%;
+  background: gainsboro;
+}
+.dish{
+  width: 600px;
+  height: 380px;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
